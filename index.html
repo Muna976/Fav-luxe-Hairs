@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FAV LUXE Hair & Nail Care — premium hair and nail care in Enugu, Nigeria.">
+  <title>FAV LUXE | Hair & Nail Care</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar">UNEC Rd, Ogui, Enugu, Nigeria · <span>09061555376</span></div>
+
+  <header class="nav">
+    <a class="brand" href="#home">
+      <img src="assets/fav-luxe-logo.jpg" alt="FAV LUXE logo">
+      <div>
+        <strong>FAV LUXE</strong>
+        <small>HAIR · NAIL CARE</small>
+      </div>
+    </a>
+
+    <button class="menu-btn" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#styles">Hair Designs</a>
+      <a href="#queens">Our Queens</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-cta whatsapp-link" href="#">Book a Session</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">YOUR BEAUTY IS OUR PRIORITY</p>
+        <h1>Beauty,<br><em>Elevated.</em></h1>
+        <p class="hero-text">
+          Premium hair and nail care designed to make you feel confident,
+          beautiful and unforgettable.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-gold whatsapp-link" href="#">Book a Hair Session <span>↗</span></a>
+          <a class="btn btn-outline" href="#styles">Explore Styles</a>
+        </div>
+        <div class="hero-trust">
+          <span>✦ Professional Care</span>
+          <span>✦ Beautiful Results</span>
+          <span>✦ Enugu, Nigeria</span>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <div class="gold-orbit"></div>
+        <div class="hero-card">
+          <div class="hero-placeholder">
+            <span>FAV</span>
+            <small>LUXE</small>
+          </div>
+        </div>
+        <div class="floating-note">Hair · Nails<br><b>Made With Care</b></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-label">01 — ABOUT US</div>
+      <div class="about-grid">
+        <div>
+          <p class="eyebrow">THE FAV LUXE EXPERIENCE</p>
+          <h2>Your beauty deserves<br><em>the luxe treatment.</em></h2>
+        </div>
+        <div>
+          <p>
+            FAV LUXE is a modern hair and nail care brand focused on clean
+            finishing, beautiful styles and an experience that puts you first.
+            From protective braids to nail care, every appointment is created
+            with attention to detail.
+          </p>
+          <a class="text-link whatsapp-link" href="#">Talk to FAV LUXE →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services">
+      <div class="section-head">
+        <div>
+          <div class="section-label">02 — SERVICES</div>
+          <h2>Everything you need<br><em>to feel beautiful.</em></h2>
+        </div>
+        <p>Hair styling, hair care and nail care — all in one luxe space.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card featured">
+          <div class="service-icon">✦</div>
+          <h3>Hair Styling</h3>
+          <p>Braids, Ghana weaving, knotless, boho, goddess and more.</p>
+          <span>01</span>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">◌</div>
+          <h3>Nail Care</h3>
+          <p>Nail fixing, manicure and pedicure for a polished finish.</p>
+          <span>02</span>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">✧</div>
+          <h3>Hair Treatment</h3>
+          <p>Hair treatment and care designed around your hair needs.</p>
+          <span>03</span>
+        </article>
+        <article class="service-card">
+          <div class="service-icon">♡</div>
+          <h3>Hair Growth Oil</h3>
+          <p>Simple care products to support a healthy hair routine.</p>
+          <span>04</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="styles" class="section styles">
+      <div class="section-head">
+        <div>
+          <div class="section-label">03 — HAIR DESIGNS</div>
+          <h2>Find your next<br><em>favourite look.</em></h2>
+        </div>
+        <p>Save a style you love and send it to FAV LUXE when booking.</p>
+      </div>
+
+      <div class="style-filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="braids">Braids</button>
+        <button class="filter" data-filter="cornrows">Cornrows</button>
+        <button class="filter" data-filter="protective">Protective</button>
+      </div>
+
+      <div class="style-grid" id="styleGrid">
+        <!-- Images below are external inspiration images. Replace with licensed/owned salon photos for production. -->
+        <article class="style-card" data-category="protective braids">
+          <img src="https://braidingbykoumba.com/wp-content/uploads/2018/04/Knotless-braids-18.jpeg" alt="Knotless braids" loading="lazy">
+          <div class="style-info"><span>01</span><h3>Knotless Braids</h3><p>Clean · Lightweight · Versatile</p></div>
+        </article>
+
+        <article class="style-card" data-category="cornrows protective">
+          <img src="https://www.papaganlar.net/fashion-lifestyle-trends/wp-content/uploads/2023/08/Stitch-braid51-1024x1024-1.webp" alt="Stitch braids" loading="lazy">
+          <div class="style-info"><span>02</span><h3>Stitch Braids</h3><p>Neat · Sleek · Detailed</p></div>
+        </article>
+
+        <article class="style-card" data-category="braids protective">
+          <img src="https://blog.goldsupplier.com/wp-content/uploads/2024/12/boho-braids-1.jpg" alt="Boho braids" loading="lazy">
+          <div class="style-info"><span>03</span><h3>Boho Braids</h3><p>Soft · Textured · Chic</p></div>
+        </article>
+
+        <article class="style-card" data-category="cornrows protective">
+          <img src="https://i.pinimg.com/originals/1c/e7/e3/1ce7e38df0ff5facf6ed0a35aead9791.jpg" alt="Goddess braids" loading="lazy">
+          <div class="style-info"><span>04</span><h3>Goddess Braids</h3><p>Bold · Elegant · Statement</p></div>
+        </article>
+
+        <article class="style-card" data-category="braids protective">
+          <img src="https://hairstylecamp.com/wp-content/uploads/fulani-braids-22.jpg" alt="Fulani braids" loading="lazy">
+          <div class="style-info"><span>05</span><h3>Fulani Braids</h3><p>Classic · Cultural · Beautiful</p></div>
+        </article>
+
+        <article class="style-card" data-category="cornrows">
+          <img src="https://i2.wp.com/www.hadviser.com/wp-content/uploads/2020/06/30-shiny-lemonade-braids-CC-yUaYnSce.jpg?resize=962%2C1200&ssl=1" alt="Lemonade braids" loading="lazy">
+          <div class="style-info"><span>06</span><h3>Lemonade Braids</h3><p>Sleek · Modern · Confident</p></div>
+        </article>
+
+        <article class="style-card" data-category="braids protective">
+          <img src="https://i.pinimg.com/736x/94/4b/49/944b49b16ceab3053e0d42ef147d03ed.jpg" alt="Cornrow braids" loading="lazy">
+          <div class="style-info"><span>07</span><h3>Classic Cornrows</h3><p>Timeless · Clean · Refined</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="queens" class="section queens">
+      <div class="section-head">
+        <div>
+          <div class="section-label">04 — OUR QUEENS</div>
+          <h2>Real women.<br><em>Real FAV LUXE.</em></h2>
+        </div>
+        <button id="openAdmin" class="btn btn-dark">Add Hair Photo +</button>
+      </div>
+
+      <div id="queenGrid" class="queen-grid"></div>
+      <div id="emptyQueens" class="empty-state">
+        <div>✦</div>
+        <h3>Your Queens gallery starts here.</h3>
+        <p>Upload a client's hair photo and name to showcase your work.</p>
+        <button class="btn btn-gold" id="emptyAdd">Upload First Photo</button>
+      </div>
+    </section>
+
+    <section class="booking-banner">
+      <div>
+        <p class="eyebrow">READY FOR YOUR NEXT LOOK?</p>
+        <h2>Let's create something<br><em>beautiful together.</em></h2>
+      </div>
+      <a class="btn btn-light whatsapp-link" href="#">Book on WhatsApp ↗</a>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-label">05 — CONTACT</div>
+      <div class="contact-grid">
+        <div>
+          <p class="eyebrow">COME VISIT US</p>
+          <h2>Let's make your<br><em>beauty a priority.</em></h2>
+          <div class="contact-details">
+            <div><span>PHONE</span><a href="tel:+2349061555376">09061555376</a></div>
+            <div><span>LOCATION</span><p>UNEC Rd, Ogui, Enugu, Nigeria</p></div>
+            <div><span>BOOKING</span><p>WhatsApp available for fast booking.</p></div>
+          </div>
+          <a class="btn btn-gold whatsapp-link" href="#">Chat on WhatsApp</a>
+        </div>
+
+        <form class="booking-form" id="bookingForm">
+          <h3>Request a Session</h3>
+          <label>Name<input required type="text" name="name" placeholder="Your name"></label>
+          <label>Phone Number<input required type="tel" name="phone" placeholder="080..."></label>
+          <label>Service
+            <select name="service">
+              <option>Hair Styling</option>
+              <option>Knotless Braids</option>
+              <option>Ghana Weaving</option>
+              <option>Boho Braids</option>
+              <option>Goddess Braids</option>
+              <option>Nail Care</option>
+              <option>Hair Treatment</option>
+            </select>
+          </label>
+          <label>Preferred Date<input type="date" name="date"></label>
+          <label>Message<textarea name="message" rows="4" placeholder="Tell us what you'd like..."></textarea></label>
+          <button class="btn btn-dark" type="submit">Continue on WhatsApp →</button>
+          <small>Your details will be placed into a WhatsApp message for FAV LUXE.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">
+      <strong>FAV LUXE</strong>
+      <span>HAIR · NAIL CARE</span>
+    </div>
+    <p>YOUR BEAUTY IS OUR PRIORITY</p>
+    <div class="footer-links">
+      <a href="#services">Services</a>
+      <a href="#styles">Hair Designs</a>
+      <a href="#queens">Our Queens</a>
+      <a class="whatsapp-link" href="#">WhatsApp</a>
+    </div>
+    <small>© 2026 FAV LUXE. All Rights Reserved.</small>
+  </footer>
+
+  <div class="modal" id="adminModal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="close-modal" id="closeAdmin" aria-label="Close">×</button>
+      <p class="eyebrow">OUR QUEENS</p>
+      <h2>Add a Hair Photo</h2>
+      <p class="modal-subtitle">This demo saves uploaded entries in this browser using localStorage.</p>
+      <form id="queenForm">
+        <label>Customer Name<input id="queenName" required type="text" placeholder="e.g. Chiamaka"></label>
+        <label>Hairstyle<input id="queenStyle" type="text" placeholder="e.g. Knotless Braids"></label>
+        <label>Photo<input id="queenPhoto" required type="file" accept="image/*"></label>
+        <button class="btn btn-gold" type="submit">Add to Our Queens</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox">
+    <button id="lightboxClose">×</button>
+    <img id="lightboxImg" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
